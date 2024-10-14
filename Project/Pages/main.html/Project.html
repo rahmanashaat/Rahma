@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="Assest/css/main.css">  
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images Portfolio/Rreproject 11 part 7 [Recovered]-01-min.png" alt="Sample Image" class="logo" width="100px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fi fi-rr-cross-small" onclick="closemenu()"></i>
+                </ul>
+                <i class="fi fi-br-menu-dots-vertical" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p><em><strong>Hi I'm Rahma Nashaat, <br>a passionate Graphic and Web Designer from Egypt, <br> bringing creativity to life with every pixel and design!</strong></em></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images Portfolio/Untitled-1-01-min.png" alt="About Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Rahma Nashaat, a passionate Front-End Web Developer and Graphic Designer with a background in Photoshop and Illustrator and 4 months of experience. My major is "Visual Communication and New Media Arts and Programming Engineering". I specialize in building responsive and user-friendly websites using HTML, CSS, JavaScript, and frameworks like React...</p>
+                    
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                    </div>
+                    
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Ps/Ai</span><br>Designing Logos/Posters/Cover Books/Branding/Motion Graphic</li>
+                            <li><span>Web Development</span><br>Websites Development</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>I work at my university, affiliated with the Central Family of the Presidency of the Republic.</li>
+                            <li><span>Currently</span><br>I'm taking courses to improve myself in front-end web development from Udacity and Harvard's CS50.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>Currently</span><br>I'm an undergraduate, studying at Helwan National University in the Faculty of Applied Arts. My major is Visual Communication and New Media Arts and Programming Engineering.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>I'm still learning coding and working to improve it.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Graphic Design</h2>
+                    <p><strong><em>I use Adobe's programs for branding, visual identity, and mockups.</em></strong></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Coming soon...</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------portfolio---------> 
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <p><strong><em>Visual Identity,<br>is branding about yourself or branding products. We use three or four colors and geometric or organic fonts.</em></strong></p>
+                <figure class="work">
+                    <img src="Images Portfolio/Rreproject 11 part 7 [Recovered]-01-min.png" alt="Sample Image">
+                    <figcaption>Logo</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="Images Portfolio/Reproject 11 part2 [Recovered]-01-min.png" alt="Sample Image">
+                    <figcaption>Facebook Cover</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="Images Portfolio/Cover LinkedIn-01-min.jpg" alt="Sample Image">
+                    <figcaption>LinkedIn Cover</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="Images Portfolio/Profile Picture in Linkedin-01-min.jpg" alt="Sample Image">
+                    <figcaption>LinkedIn Profile</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="Images Portfolio/Reproject 11 part1 [Recovered]-01-min.png" alt="Sample Image">
+                    <figcaption>Facebook Profile</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="Images Portfolio/Reproject 11 part3 [Recovered]-01-min.png" alt="Sample Image">
+                    <figcaption>Facebook Post</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="Images Portfolio/Reproject 11 part5 [Recovered]-01-min.png" alt="Sample Image">
+                    <figcaption>Instagram Profile</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="Images Portfolio/Reproject 11 part6 [Recovered]-01-min.png" alt="Sample Image" width="100%">
+                    <figcaption>Instagram Post</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="mailto:rahmanashaat973@gmail.com" class="btn btn2">Email Me</a>
+                    <a href="Images/Rahma CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; Rahma Nashaat. All rights reserved.</p>
+        </div>
+    </div>
+
+    <!-- JavaScript to handle tabs -->
+    <script>
+        function opentab(tabname, event) {
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-content");
+
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+
+    <!-- Google Sheets form submission script -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxNLEtRUQ23aESSC6jEPfd-LW7ni_unDQrE4zkr_wl0Z3m8xSeK2zZ4ZDMhDnLPwnjVlQ/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!";
+                    setTimeout(function(){
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => {
+                    msg.innerHTML = "Something went wrong.";
+                });
+        });
+    </script>
+</body>
+</html>
